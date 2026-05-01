@@ -33,6 +33,20 @@ const testimonios = [
     cargo: 'Directora de Operaciones',
     texto: 'Automatizamos procesos que nos tomaban horas. Una inversión que vale la pena.',
     foto: 'https://i.pravatar.cc/150?img=5'
+  },
+  {
+    id: 6,
+    nombre: 'Alessandro Hernández',
+    cargo: 'Técnico',
+    texto: 'Me ayudó a organizar mis pendientes y el tiempo que utilizo en mis tareas.',
+    foto: 'https://i.pravatar.cc/150?img=6'
+  },
+  {
+    id: 7,
+    nombre: 'Liliana Gutierrez',
+    cargo: 'Ingeniera de Operaciones',
+    texto: 'Fácil de entender y bastante ligero.',
+    foto: 'https://i.pravatar.cc/150?img=7',
   }
 ];
 
