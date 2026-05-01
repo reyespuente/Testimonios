@@ -1,13 +1,6 @@
-:root {
-  --bg: #f7f7fb;
-  --card: #fff;
-  --accent: #4f46e5;
-  --muted: #666;
-}
-
 body {
-  font-family: Inter, system-ui, sans-serif;
-  background: var(--bg);
+  font-family: inter, system-ui, sans-serif;
+  background: var(-bg);
   margin: 0;
   padding: 40px;
   display: flex;
@@ -15,19 +8,19 @@ body {
 }
 
 .app {
-  width: 100%;
-  max-width: 420px;
+  width: 420px;
   text-align: center;
 }
 
 .testimonial-card {
-  background: var(--card);
-  padding: 24px;
+  background: white;
   border-radius: 12px;
-  box-shadow: 0 6px 18px rgba(20,20,50,0.08);
+  padding: 24px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.88);
+  text-align: center;
 }
 
-.testimonial-photo {
+.testimonial-foto {
   width: 90px;
   height: 90px;
   border-radius: 50%;
@@ -35,38 +28,37 @@ body {
   margin-bottom: 12px;
 }
 
-.testimonial-name {
-  margin: 6px 0 0;
+.testimonio-nombre {
   font-weight: 600;
+  margin-bottom: 4px;
 }
 
-.testimonial-role {
+.testimonial-rol {
   color: var(--muted);
   font-size: 0.9rem;
   margin: 6px 0 12px;
 }
 
-.testimonial-text {
+.testimonial-texto {
   font-style: italic;
   line-height: 1.5;
-  color: #222;
+  color: #222
 }
 
 .controls {
   margin-top: 16px;
   display: flex;
-  gap: 10px;
+  gap: 10pz;
   justify-content: center;
 }
 
 .controls button {
   border: none;
-  padding: 8px 12px;
-  border-radius: 8px;
+  padding: 8PX;
+  border-radius: 8PX;
   cursor: pointer;
   background: #fff;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.06);
-  font-size: 1.2rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
 }
 
 .counter {

@@ -1,14 +1,13 @@
-import React from 'react';
+import React from "react";
 
-export default function Testimonial({ item }) {
+export default function Testimonio({ item }) {
   const { nombre, cargo, texto, foto } = item;
-
   return (
-    <article className="testimonial-card">
-      <img src={foto} alt={`Foto de ${nombre}`} className="testimonial-photo" />
-      <h3 className="testimonial-name">{nombre}</h3>
-      <p className="testimonial-role">{cargo}</p>
-      <p className="testimonial-text">"{texto}"</p>
+    <article className = "testimonio-card">
+      <img src = {foto} alt = {nombre} className = "testimonio-foto" />
+      <h3 className = "testimonio-nombre"> {nombre} </h3>
+      <p className = "testimonio-cargo"> {cargo} </p>
+      <p className = "testimonio-texto"> {texto} </p>
     </article>
-  );
+  )
 }
